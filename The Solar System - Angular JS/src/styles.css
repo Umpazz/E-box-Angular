@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: rgb(214, 189, 189);
+    font-family:"Montserrat", sans-serif
+  }
+  h1{
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+  }
+  #content{
+    display: flex;
+  }
+  #div1{
+    width: 50%;
+    padding: 80px;
+  }
+  h2{
+    font-size: 2em;
+  }
+  p{
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  button{
+    background-color: rgba(22, 22, 173, 0.829);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #planets{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .planetDiv {
+    margin-bottom: 10%;
+    cursor: pointer;
+  }
+  .planetDiv > #imgDiv {
+    width: 90%; 
+  }
+  #imgDiv > img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 2.9/2;
+    object-fit: contain;
+  }
+  .planetDiv > p{
+    margin-left: 35%;
+  }
+  #information{
+    display: flex;
+  }
+  #desImg{
+    width: 45%;
+    margin-right: 10%;
+  }
+  #back{
+    margin-right: 50px;
+    float: right;
+  }
