@@ -1,0 +1,23 @@
+<div class="container">
+  <h2>User and Question Management</h2>
+  <nav>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="/users" routerLinkActive="active">Users</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/questions" routerLinkActive="active">Questions</a>
+      </li>
+    </ul>
+  </nav>
+  <mat-card class="card">
+    <h3>Users Profile Details</h3>
+    <div *ngFor="let user of users" class="user-details">
+      <img [src]="user.imageUrl" alt="{{ user.name }}" class="user-img">
+      <h4>{{ user.name }}</h4>
+      <p>DOB: {{ user.dob | date:'dd/MM/yyyy' }}</p>
+      <p class="mobile">Phone: {{ user.phone }}</p>
+      <p>Location: {{ user.location }}</p>
+    </div>
+  </mat-card>
+</div>

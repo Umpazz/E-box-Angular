@@ -1,0 +1,17 @@
+ <div class="container">
+  <h2>Question List</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Question</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let question of questions">
+        <td>{{ question.id }}</td>
+        <td>{{ question.question }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,92 @@
+.card {
+    width:300px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: monospace;
+    height: 350px;
+    box-shadow: 0 10px 10px 0 rgba(8, 0, 0, 0.2);
+}
+
+.sideNav {
+    width:300px;
+    height: 100%;
+    position: fixed;
+    /* background-color: black; */ 
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    /* margin-left: 10px; */
+    margin-right: 40px;
+    margin-top: 58px;
+}
+
+
+.sideContainer {
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+.sideContent {
+    height: 100%;
+    position: fixed;
+    margin-top: 10px;
+    margin-right: 10px;
+    /* background-color: whitesmoke;; */
+}
+
+.name {
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.dob {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.mobile {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.location {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.user-img {
+    margin-left: 115px;
+    margin-right: auto;
+    width: 30%;
+    height: 30%
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: monospace;
+}
+
+h2 {
+    text-align: center;
+}
+
+.nav-img{
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.matListItem {
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.matList {
+    margin-top: 90px;
+}

@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "name": "Novel",
+        "description": "A narrative fiction that tells a story through characters and events.",
+        "books": [
+            {
+                "id": 101,
+                "title": "To Kill a Mockingbird",
+                "author": "Harper Lee",
+                "price": 18.99
+            },
+            {
+                "id": 102,
+                "title": "1984",
+                "author": "George Orwell",
+                "price": 15.99
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Science Fiction",
+        "description": "Fictional stories that explore futuristic concepts and scientific advancements.",
+        "books": [
+            {
+                "id": 103,
+                "title": "Dune",
+                "author": "Frank Herbert",
+                "price": 25.99
+            },
+            {
+                "id": 104,
+                "title": "Neuromancer",
+                "author": "William Gibson",
+                "price": 20.99
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Mystery",
+        "description": "Fiction that involves solving a crime or unraveling a secret.",
+        "books": [
+            {
+                "id": 105,
+                "title": "The Girl with the Dragon Tattoo",
+                "author": "Stieg Larsson",
+                "price": 19.99
+            },
+            {
+                "id": 106,
+                "title": "Gone Girl",
+                "author": "Gillian Flynn",
+                "price": 17.99
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Fantasy",
+        "description": "Fictional stories that include magical elements and imaginary worlds.",
+        "books": [
+            {
+                "id": 107,
+                "title": "Harry Potter and the Sorcerer's Stone",
+                "author": "J.K. Rowling",
+                "price": 29.99
+            },
+            {
+                "id": 108,
+                "title": "The Hobbit",
+                "author": "J.R.R. Tolkien",
+                "price": 24.99
+            }
+        ]
+    }
+]
